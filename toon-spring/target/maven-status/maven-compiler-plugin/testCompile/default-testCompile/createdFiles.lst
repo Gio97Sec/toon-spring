@@ -1,0 +1,10 @@
+com/toonformat/spring/ToonMapperTest$Order.class
+com/toonformat/spring/ToonMapperTest$Serialization.class
+com/toonformat/spring/ToonMapperTest$Address.class
+com/toonformat/spring/ToonMapperTest$AnnotatedUser.class
+com/toonformat/spring/ToonMapperTest$Person.class
+com/toonformat/spring/ToonMapperTest$Product.class
+com/toonformat/spring/ToonMapperTest$User.class
+com/toonformat/spring/ToonMapperTest$Deserialization.class
+com/toonformat/spring/ToonMapperTest$RoundTrip.class
+com/toonformat/spring/ToonMapperTest.class

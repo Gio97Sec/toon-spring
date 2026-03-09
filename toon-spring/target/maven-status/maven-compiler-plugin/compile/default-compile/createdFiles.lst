@@ -1,0 +1,11 @@
+com/toonformat/spring/ToonDelimiter.class
+com/toonformat/spring/ToonException.class
+com/toonformat/spring/spring/ToonAutoConfiguration.class
+com/toonformat/spring/ToonOptions.class
+com/toonformat/spring/annotation/ToonField.class
+com/toonformat/spring/ToonMapper.class
+com/toonformat/spring/spring/ToonHttpMessageConverter.class
+com/toonformat/spring/ToonDeserializer.class
+com/toonformat/spring/ToonDeserializer$Line.class
+com/toonformat/spring/annotation/ToonIgnore.class
+com/toonformat/spring/ToonSerializer.class

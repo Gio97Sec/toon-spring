@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.toonformat.spring.ToonMapperTest$Serialization" time="0.011" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/giovannisecondo/Desktop/Coding/myProjects/toon-spring/toon-spring/target/test-classes:/Users/giovannisecondo/Desktop/Coding/myProjects/toon-spring/toon-spring/target/classes:/Users/giovannisecondo/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.5/spring-boot-autoconfigure-3.2.5.jar:/Users/giovannisecondo/.m2/repository/org/springframework/boot/spring-boot/3.2.5/spring-boot-3.2.5.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-context/6.1.6/spring-context-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-aop/6.1.6/spring-aop-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-expression/6.1.6/spring-expression-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-web/6.1.6/spring-web-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-beans/6.1.6/spring-beans-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-core/6.1.6/spring-core-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-jcl/6.1.6/spring-jcl-6.1.6.jar:/Users/giovannisecondo/.m2/repository/io/micrometer/micrometer-observation/1.12.5/micrometer-observation-1.12.5.jar:/Users/giovannisecondo/.m2/repository/io/micrometer/micrometer-commons/1.12.5/micrometer-commons-1.12.5.jar:/Users/giovannisecondo/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/giovannisecondo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/giovannisecondo/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/giovannisecondo/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/giovannisecondo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/giovannisecondo/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/giovannisecondo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/giovannisecondo/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/giovannisecondo/.m2/repository/org/assertj/assertj-core/3.25.3/assertj-core-3.25.3.jar:/Users/giovannisecondo/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Users/giovannisecondo/Library/Java/JavaVirtualMachines/openjdk-23.0.1/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/giovannisecondo/Desktop/Coding/myProjects/toon-spring/toon-spring/target/surefire/surefirebooter-20260308153334551_3.jar /Users/giovannisecondo/Desktop/Coding/myProjects/toon-spring/toon-spring/target/surefire 2026-03-08T15-33-34_509-jvmRun1 surefire-20260308153334551_1tmp surefire_0-20260308153334551_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/giovannisecondo/Desktop/Coding/myProjects/toon-spring/toon-spring/target/test-classes:/Users/giovannisecondo/Desktop/Coding/myProjects/toon-spring/toon-spring/target/classes:/Users/giovannisecondo/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.5/spring-boot-autoconfigure-3.2.5.jar:/Users/giovannisecondo/.m2/repository/org/springframework/boot/spring-boot/3.2.5/spring-boot-3.2.5.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-context/6.1.6/spring-context-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-aop/6.1.6/spring-aop-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-expression/6.1.6/spring-expression-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-web/6.1.6/spring-web-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-beans/6.1.6/spring-beans-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-core/6.1.6/spring-core-6.1.6.jar:/Users/giovannisecondo/.m2/repository/org/springframework/spring-jcl/6.1.6/spring-jcl-6.1.6.jar:/Users/giovannisecondo/.m2/repository/io/micrometer/micrometer-observation/1.12.5/micrometer-observation-1.12.5.jar:/Users/giovannisecondo/.m2/repository/io/micrometer/micrometer-commons/1.12.5/micrometer-commons-1.12.5.jar:/Users/giovannisecondo/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/giovannisecondo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/giovannisecondo/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/giovannisecondo/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/giovannisecondo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/giovannisecondo/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/giovannisecondo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/giovannisecondo/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/giovannisecondo/.m2/repository/org/assertj/assertj-core/3.25.3/assertj-core-3.25.3.jar:/Users/giovannisecondo/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/giovannisecondo"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/Users/giovannisecondo/Library/Java/JavaVirtualMachines/openjdk-23.0.1/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/giovannisecondo/Desktop/Coding/myProjects/toon-spring/toon-spring"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/giovannisecondo/Desktop/Coding/myProjects/toon-spring/toon-spring/target/surefire/surefirebooter-20260308153334551_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="giovannisecondo"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="localRepository" value="/Users/giovannisecondo/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/w6/chn07wh55vv41gt9qyplqn4c0000gn/T/"/>
+    <property name="idea.version" value="2025.3.3"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/giovannisecondo/Desktop/Coding/myProjects/toon-spring/toon-spring"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/giovannisecondo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="maven.repo.local" value="/Users/giovannisecondo/.m2/repository"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="specialNumbers" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.001"/>
+  <testcase name="primitiveArray" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.0"/>
+  <testcase name="simpleObject" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.001"/>
+  <testcase name="lengthMarker" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.0"/>
+  <testcase name="emptyArray" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.001"/>
+  <testcase name="rootArray" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.0"/>
+  <testcase name="tabularArray" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.0"/>
+  <testcase name="objectWithNestedList" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.001"/>
+  <testcase name="nestedObject" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.0"/>
+  <testcase name="stringQuoting" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.001"/>
+  <testcase name="annotatedFields" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.0"/>
+  <testcase name="rootTabularArray" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.001"/>
+  <testcase name="mapSerialization" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.0"/>
+  <testcase name="pipeDelimiter" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.001"/>
+  <testcase name="nullValues" classname="com.toonformat.spring.ToonMapperTest$Serialization" time="0.0"/>
+</testsuite>
