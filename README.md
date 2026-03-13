@@ -18,7 +18,7 @@ TOON is a compact, human-readable serialization format designed to reduce token 
 
 ```xml
 <dependency>
-    <groupId>com.toonformat</groupId>
+    <groupId>io.github.gio97sec</groupId>
     <artifactId>toon-spring</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -224,13 +224,13 @@ public class WebConfig implements WebMvcConfigurer {
 
 ### `ToonMapper`
 
-| Method                        | Description                                      |
-| ----------------------------- | ------------------------------------------------ |
-| `writeValueAsString(Object)`  | Java object → TOON string                        |
-| `readValue(String, Class<T>)` | TOON string → POJO                               |
-| `readList(String, Class<T>)`  | TOON string (root array) → `List<T>`             |
-| `readMap(String)`             | TOON string → `Map<String, Object>`              |
-| `readTree(String)`            | TOON string → generic tree (Map/List/primitives) |
+| Method | Description |
+|--------|-------------|
+| `writeValueAsString(Object)` | Java object → TOON string |
+| `readValue(String, Class<T>)` | TOON string → POJO |
+| `readList(String, Class<T>)` | TOON string (root array) → `List<T>` |
+| `readMap(String)` | TOON string → `Map<String, Object>` |
+| `readTree(String)` | TOON string → generic tree (Map/List/primitives) |
 
 ### Quoting Rules
 
@@ -316,6 +316,6 @@ users[3]{id,name,role,salary}:
 
 ## License
 
-MIT License — Copyright (c) 2026 Gio97Sec
+MIT License — Copyright (c) 2025 Giovanni Secondo alias Gio97Sec
 
 See [LICENSE](LICENSE) for details.
